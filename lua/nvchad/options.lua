@@ -10,20 +10,6 @@ o.clipboard = "unnamedplus"
 o.cursorline = true
 o.cursorlineopt = "number"
 
--- Set cursor style
-opt.guicursor = "n-v-c-i:block"
-
--- Disable line wrapping
-opt.wrap = false
-
--- Keep 10 lines below the cursor
-opt.scrolloff = 10
-
--- Disable swap file and enable persistent undo
-opt.swapfile = false
-opt.undodir = vim.fn.stdpath("cache") .. "/undodir"
-opt.undofile = true
-
 -- Indenting
 o.expandtab = true
 o.shiftwidth = 2
